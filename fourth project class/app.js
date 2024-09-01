@@ -9,6 +9,7 @@ console.log("User Question : " + userquestion);
 let itrandomnumber = Math.floor(Math.random() * 8);
 let eightBall = " "
 
+
 switch (itrandomnumber) {
     case 0:
         eightBall="better not tell you now";
