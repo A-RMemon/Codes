@@ -63,11 +63,13 @@ if(pos1 != "" && pos2 != "" && pos3 != ""){
 }
 }           
 };
-
+//  let hide = () => {
+//     }
 let resetgame  = ()=>{
     turnO=true
     enable();
-    msgcontainer.classList.add(".hide")
+    msgcontainer.classList.add("hide")
 }
+
 newgamebtn.addEventListener("click",resetgame);
-resetbtn.addEventListener("click",resetgame)
+resetbtn.addEventListener("click",resetgame);

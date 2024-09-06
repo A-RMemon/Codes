@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(229,73,124,1) 100%, rgba(252,70,107,1) 100%);
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    justify-content: space-around;
+}
+
+.child1{
+    display: flex;
+    /* flex-direction: column; */
+justify-content: space-between;
+align-items: center;
+height: 60vh;
+width: 50vw;
+}
+.btnuser{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: none;
+    border: 3px solid rgb(164, 42, 117);
+    background: transparent;
+}
+.con2{
+    text-align: center;
+}
+.resetbtn{
+    padding: 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+background: transparent;
+border: 3px solid rgb(164, 42, 117);
+}
