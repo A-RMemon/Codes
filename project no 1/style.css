@@ -64,3 +64,33 @@ h5 {
 h2 {
     margin-left: 5px;
 }
+
+@media only screen and (min-width:390px) and (max-width:932px) {
+    .container{
+        width: 90%;
+        height: 53vh;
+    }
+
+    
+}
+@media only screen and (max-width:389px){
+    .container{
+        width: 90%;
+        height: 70vh;
+    }
+h1{
+    font-size: 2.5rem;
+}
+    
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .container{
+        width: 90%;
+        height: 50vmin;
+    }
+h1{
+    font-size: 4rem;
+    
+}
+    
+}
